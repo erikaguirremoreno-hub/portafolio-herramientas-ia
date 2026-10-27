@@ -69,5 +69,5 @@ $$
 - **Riesgo:** [ Lo que podría pasar de los riesgos son que si este tipo de tecnología se integra con cámaras de seguridad o públicas podría utilizarse para arrastrar los trayectos de personas sin su consentimiento y otro riesgo sería fallas de reconocimiento.]
 - **Mitigación:** [La solución a ese  problema es limitando el uso y a que publico esta dirigido no dirigado a todo el mundo si no a empresas específicas que cumplan con ciertas normas para poder cuidar los datos sensibles y evitar esta parte de seguir personas.]
 
-## 5. Evidencoa
+## 5. Evidencia
 [<img width="916" height="365" alt="imageevidencia" src="https://github.com/user-attachments/assets/b0281b35-1037-49ab-a772-123d0eeffba9" />]
