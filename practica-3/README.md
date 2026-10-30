@@ -71,4 +71,3 @@ $$
 
 ## 5. Evidencia
 ![Imgaen](image.png)
-Cuenta de Github: @erikaguirremoreno
