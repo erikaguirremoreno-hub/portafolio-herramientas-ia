@@ -34,7 +34,7 @@ B -->|Sí: imagen RGB| E["Jordo23/<br/>vehicle-classifier"]
 E -->|clasificación| F(["Top 5<br/>marca, modelo y año"])
 ```
 
-Como funciona el #mermaid
+**Como funciona el #mermaid**
 flowchart LR  
 A([Fotografía]) -->|imagen| B{¿Imagen clara?}  
 B -->|No| C[Pedir otra fotografía]  
@@ -46,12 +46,12 @@ E -->|clasificación| F(["Top 5<br/>marca, modelo y año"])
 
 ## 2. Modelo abierto elegido
 
-| Dato | Respuesta |
-|------|-----------|
-| Identificador | [ [Jordo23/vehicle-classifier](https://huggingface.co/Jordo23/vehicle-classifier )  |
-| Tarea (pipeline tag) | `[ `image-classification`]` |
-| Número de parámetros | [$\approx$ 19M ] |
-| Licencia | [MIT License ] |
+| Dato                         | Respuesta                                                                                                                                                                                                                                                                                                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identificador                | [ [Jordo23/vehicle-classifier](https://huggingface.co/Jordo23/vehicle-classifier )                                                                                                                                                                                                                                                                                  |
+| Tarea (pipeline tag)         | `[ `image-classification`]`                                                                                                                                                                                                                                                                                                                                         |
+| Número de parámetros         | [$\approx$ 19M ]                                                                                                                                                                                                                                                                                                                                                    |
+| Licencia                     | [MIT License ]                                                                                                                                                                                                                                                                                                                                                      |
 | Limitación o sesgo declarado | [Condiciones de imagen: Diseñado para fotos claras y bien iluminadas; decae en tomas ocluidas o con ángulos inusuales (cenitales, primeros planos extremos). - Cobertura: Presenta fallos con autos modificados/personalizados o modelos muy antiguos y raros ausentes en VMMRdb. - Alcance: No realiza detección de color de vehículo (debe procesarse aparte).  ] |
 
 ## 3. Viabilidad de hardware
