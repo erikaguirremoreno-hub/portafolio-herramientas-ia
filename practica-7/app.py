@@ -16,6 +16,7 @@ demo = gr.Interface(
     outputs=gr.Label(num_top_classes=3, label="Lo que ve el modelo"),
     title="¿Qué hay en la foto?",
     description="MobileNetV2 (14 MB) corriendo en mi computadora. Conoce 1,000 categorías de ImageNet, con nombres en inglés.",
+    examples=["ejemplos/carro.jpg", "ejemplos/mi-foto.jpg"],
 )
 
 demo.launch()
