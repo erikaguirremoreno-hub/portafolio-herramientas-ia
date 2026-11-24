@@ -12,10 +12,8 @@ def clasificar(imagen):
 
 demo = gr.Interface(
     fn=clasificar,
-    inputs=gr.Image(type="pil", label="Tu foto"),
-    outputs=gr.Label(num_top_classes=3, label="Lo que ve el modelo"),
-    title="¿Qué hay en la foto?",
-    description="MobileNetV2 (14 MB) corriendo en mi computadora. Conoce 1,000 categorías de ImageNet, con nombres en inglés.",
-    )
+    inputs=gr.Image(type="pil"),
+    outputs=gr.Label(num_top_classes=3),
+)
 
 demo.launch()
