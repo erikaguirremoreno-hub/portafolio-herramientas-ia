@@ -1,11 +1,19 @@
 import time
 import gradio as gr
+import spaces
 from transformers import pipeline
 
 clasificador = pipeline(
     "image-classification",
     model="google/mobilenet_v2_1.0_224",
 )
+
+# En un Space con ZeroGPU, Hugging Face define SPACES_ZERO_GPU: el modelo va a la GPU.
+# En tu computadora esa variable no existe: el modelo se queda en la CPU.
+DISPOSITIVO = "cuda" if os.getenv("SPACES_ZERO_GPU") else "cpu"
+
+clasificador = pipeline("image-classification", model="google/mobilenet_v2_1.0_224", 
+device=DISPOSITIVO)
 
 def clasificar(imagen):
     inicio = time.time()
@@ -24,6 +32,7 @@ demo = gr.Interface(
     title="¿Qué hay en la foto?",
     description="MobileNetV2 (14 MB) corriendo en mi computadora. Conoce 1,000 categorías de ImageNet, con nombres en inglés.",
     examples=["ejemplos/carro.jpg", "ejemplos/mi-foto.jpg"],
+    cache_examples=False,
 )
 
-demo.launch()
+demo.launch(share=True)
