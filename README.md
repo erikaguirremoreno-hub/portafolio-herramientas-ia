@@ -11,7 +11,6 @@ Estudio Ingeniería en IA y me interesa mucho el **Machine Learning** y también
 
 ## Actividades de punto extra
 
-- [Parcial II · Catálogo de 10 componentes de Gradio](extra-parcial-2/README.md)
 - [Parcial III · Clasificador bilingüe con dos modelos](extra-parcial-3/README.md)
 
 # Mi proyecto
