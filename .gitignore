@@ -1,2 +1,6 @@
 notas/borrador.txt
 .venv/
+.gradio/
+__pycache__/
+*.pyc
+
