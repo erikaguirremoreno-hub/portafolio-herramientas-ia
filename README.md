@@ -17,4 +17,4 @@ Cuenta de Github: @erikaguirremoreno
 
 ## Link de spaces 
 
-    Link de spaces :(https://huggingface.co/spaces/Erik12222222/que-hay-en-la-foto)
+Link de spaces :(https://huggingface.co/spaces/Erik12222222/que-hay-en-la-foto)
