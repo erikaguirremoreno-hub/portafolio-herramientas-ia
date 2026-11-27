@@ -14,3 +14,7 @@ Estudio Ingeniería en IA y me interesa mucho el **Machine Learning** y también
 [Repositorio dek equipo A1](https://github.com/raulchessani-art/in1050-a1-vehiculos.git)
 
 Cuenta de Github: @erikaguirremoreno
+
+## Link de spaces 
+
+    Link de spaces :(https://huggingface.co/spaces/Erik12222222/que-hay-en-la-foto)
